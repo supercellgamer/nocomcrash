@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "me.nocomcrash.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ChatScreenMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "nocomcrash-refmap.json"
+}

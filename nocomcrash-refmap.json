@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "me/nocomcrash/mixin/ChatScreenMixin": {
+      "keyPressed": "Lnet/minecraft/class_408;method_25404(III)Z",
+      "Lnet/minecraft/client/gui/screen/ChatScreen;sendMessage(Ljava/lang/String;)V": "Lnet/minecraft/class_408;method_25427(Ljava/lang/String;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "me/nocomcrash/mixin/ChatScreenMixin": {
+        "keyPressed": "Lnet/minecraft/class_408;method_25404(III)Z",
+        "Lnet/minecraft/client/gui/screen/ChatScreen;sendMessage(Ljava/lang/String;)V": "Lnet/minecraft/class_408;method_25427(Ljava/lang/String;)V"
+      }
+    }
+  }
+}

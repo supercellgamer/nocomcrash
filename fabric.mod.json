@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "nocomcrash",
+  "version": "1.0.0",
+  "name": "Nocom Crash",
+  "description": "Sends Interact Packets To Different Chunks To Overload The Server",
+  "authors": [
+    "Scrxpted7327"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "Superscrxpted#7327"
+  },
+  "license": "MIT",
+  "icon": "assets/nocomcrash/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.nocomcrash.NoComCrash"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "nocomcrash.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12"
+  }
+}
